@@ -3,7 +3,7 @@ let bigImg = document.getElementById("largeImg")
 let imageIndex = 0
 
 let switchImage = function(event){
-     if(typeof event === "undefined"){
+    if(typeof event === "undefined"){
         imageIndex = imageIndex + 1
         if(imageIndex == 4){
             imageIndex = 0
